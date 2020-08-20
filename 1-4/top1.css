@@ -1,0 +1,80 @@
+/* リセットｃｓｓ */
+* {
+  margin: 0;
+  padding: 0;
+}
+.flo {
+  float:left;
+}
+.clearfix::after { 
+  content: '';
+  display: block; 
+  clear: both;
+}
+.b1{
+  background-color: #141f40;
+  width:400px;
+  height: 100px;
+}
+.b2{
+  background-color: #80bfa8;
+  width:150px;
+  height:250px;
+}
+.b3{
+  background-color: #dbd400;
+  width:150px;
+  height:50px;
+}
+.b4{
+  background-color: #0093b7;
+  width:150px;
+  height:100px;
+}
+.b5{
+  background-color: #ff9e6b;
+  width:100px;
+  height:150px;
+}
+.b6{
+  background-color: #8c2727;
+  width:250px;
+  height:100px;
+}
+.b7{
+  background-color: #d98d30;
+  width:400px;
+  height:100px;
+}
+
+
+@media(max-width:767px){
+  .b1{
+    width:300px;
+  }
+  .b2{
+    width:100px;
+  }
+  .b3, .b4{
+    width:125px;
+  }
+  .b5{
+    width:75px;
+  }
+  .b6{
+    width:200px;
+  }
+  .b7{
+    width:300px;
+  }
+}
+
+
+@media(max-width:479px){
+  .b1,.b2,.b3,.b4,.b5,.b6,.b7{
+    width:150px;
+  }
+  .flo {
+    float:none;
+  }
+}
