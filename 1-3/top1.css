@@ -1,0 +1,63 @@
+/* リセットｃｓｓ */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.head{
+  height:100px;
+  background-color:#141f40;
+  width: 400px;
+}
+.content1{
+  width:150px;
+  height: 250px;
+  float: left;
+  background-color:#80bfa8;
+
+}
+.content2{
+  width:250px;
+  height: 250px;
+  float: left;
+  background-color:#8c2727;
+
+}
+.footer{
+    height:100px;
+    background-color:#d98d30;
+    width: 400px;
+}
+.clearfix::after { 
+  content: '';
+  display: block; 
+  clear: both;
+}
+
+
+@media(max-width:767px){
+  .head{
+    width: 250px;
+  }
+  .content1{
+    width:150px;
+  }
+  .content2{
+    width:100px;
+  }
+  .footer{
+    width: 250px;
+  }
+}
+
+
+@media(max-width:479px){
+  .head, .footer, .content1, .content2{
+    width: 150px;
+  }
+
+  .content1, .content2{
+    float:none;
+  }
+
+}
