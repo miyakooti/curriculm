@@ -1,0 +1,81 @@
+/* リセットｃｓｓ */
+* {
+  margin: 0;
+  padding: 0;
+}
+.flo{
+  float:left;
+}
+/* .clearfix div{
+  float:left;
+} */
+.clearfix::after { 
+  content: '';
+  display: block; 
+  clear: both;
+}
+.box_yellow{
+  background-color:#dbd403;
+  width:100px;
+  height:150px;
+}
+.box_gray{
+  background-color:#666666;
+  width:200px;
+  height:100px;
+}
+.box_red{
+  background-color:#8c2727;
+  width:150px;
+  height:100px;
+}
+.box_blue{
+  background-color:#0093b7;
+  width:250px;
+  height:100px;
+}
+.box_green{
+  background-color:#00ff00;
+  width:450px;
+  height:150px;
+}
+.box_orange{
+  background-color:#d98d30;
+  width:400px;
+  height:100px;
+}
+.box_skin{
+  background-color:#FFFFCC;
+  width:100px;
+  height:100px;
+}
+.box_purple{
+  background-color:#330066;
+  width:100px;
+  height:100px;
+}
+.box_lightblue{
+  background-color:#80bfa8;
+  width:150px;
+  height:250px;
+}
+.box_lightblue_wide{
+  background-color:#33ffff;
+  width:600px;
+  height:150px;
+}
+.box_pink{
+  background-color:#ff9e6b;
+  width:150px;
+  height:50px;
+}
+.box_naiby{
+  background-color:#141f40;
+  width:400px;
+  height:100px;
+}
+.box_tyairo{
+  background-color:#d98d30;
+  width:400px;
+  height:100px;
+}

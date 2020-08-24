@@ -1,0 +1,53 @@
+/* リセットｃｓｓ */
+* {
+  margin: 0;
+  padding: 0;
+}
+.clearfix div{
+  float:left;
+}
+.clearfix::after { 
+  content: '';
+  display: block; 
+  clear: both;
+}
+.box_yellow{
+  background-color:#FFFF66;
+  width:150px;
+  height:100px;
+}
+.box_gray{
+  background-color:#666666;
+  width:200px;
+  height:100px;
+}
+.box_red{
+  background-color:#FF3333;
+  width:150px;
+  height:150px;
+}
+.box_blue{
+  background-color:#3366FF;
+  width:100px;
+  height:150px;
+}
+.box_green{
+  background-color:#669933;
+  width:100px;
+  height:150px;
+}
+.box_orange{
+  background-color:#FF3333;
+  width:150px;
+  height:100px;
+}
+.box_skin{
+  background-color:#FFFFCC;
+  width:100px;
+  height:100px;
+}
+.box_purple{
+  background-color:#330066;
+  width:100px;
+  height:100px;
+}
